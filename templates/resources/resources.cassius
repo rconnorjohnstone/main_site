@@ -1,0 +1,71 @@
+.resource_link 
+  color: green;
+
+video 
+  max-height:100%;
+  max-width: 50%;
+
+#plasma 
+  height: 100%;
+  width: 25%;
+
+#cylindrical 
+  height: 100%;
+  width: 25%;
+
+#helical 
+  height: 100%;
+  width: 50%;
+
+.video_thingy 
+  max-width: 100%;
+  height: 50vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+
+.cad_drawings 
+  display: flex;
+  max-width: 100%;
+  height: 23vh;
+  justify-content: space-around;
+
+.cad_drawings img 
+  height: 100%;
+  width: auto;
+
+@media only screen and (orientation: portrait) 
+  .video_thingy 
+    flex-direction: column;
+    height: auto;
+    min-width: 100%;
+    align-items: center;
+  
+  #plasma 
+    width: 60%;
+    max-width: 60%;
+    height: auto;
+    margin: 2% 0;
+  
+  #cylindrical 
+    width: 60%;
+    max-width: 60%;
+    height: auto;
+    margin: 2% 0;
+  
+  #helical 
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 2% 0;
+  
+  .cad_drawings 
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  
+  .cad_drawings img 
+    height: auto;
+    width: 100%;
+    margin: 2%;

@@ -1,0 +1,16 @@
+.article
+  font-size: 1.3rem;
+
+a
+  text-decoration: underline; !important
+
+.date
+  font-size: 1.25rem;
+  color: Gray;
+  margin: 0;
+  line-height: 1.1;
+
+@media only screen and (orientation: portrait)
+  .article
+    .font-size: 0.9rem;
+

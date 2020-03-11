@@ -1,0 +1,117 @@
+.navBar 
+  background-color: black;
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+
+.empty
+  position: static;
+
+.navBar, .empty 
+  right: 0;
+  left: 0;
+  top: 0;
+  padding: 0;
+  z-index: 1000;
+  height: 3.7rem;
+  width: 100%;
+
+.navLinkBox
+  display: inline-block;
+  width: 45%;
+  height: 85%;
+  margin: auto 2vw;
+
+.navLinks 
+  display: flex;
+  width: 100%
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100%;
+  align-items: flex-end;
+
+.navBarLink 
+  font-size: 1.5vw;
+
+.activeNav 
+  color:  #a644fc;
+
+.logo 
+  box-sizing: border-box;
+  display: inline-block;
+  width: 48%;
+  color: white;
+  text-align: right;
+  height: 3.5vw;
+  vertical-align: bottom;
+  margin-bottom: 0.5rem;
+
+.logo p
+  margin-block-start: 0;
+  margin-block-end: 0;
+  font-size: 3.5vw; 
+  height: 100%;
+  vertical-align: bottom;
+
+.mobile_menu 
+  align-self: center;
+
+#hamburger
+  display: hidden;
+
+.dropdown-content
+  display: none;
+
+.fa-bars 
+  font-size: 2.5rem;
+  margin: auto 2vh;
+  display: none;
+
+.show
+  display: block;
+
+@media only screen and (orientation: portrait) 
+  .navBar, .empty 
+    height: 3.5rem;
+  
+  .navBarLink 
+    font-size: 1rem;
+
+  .navLinkBox
+    width: 10%;
+    bottom: 0;
+  
+  .regularNav 
+    display: none;
+  
+  .fa-bars 
+    display: block;
+  
+  .logo 
+    min-width: 85vw;
+    height: 2.2rem;
+
+  .logo p
+    font-size: 2.2rem;
+  
+  .fa-bars:hover 
+    color: green;
+  
+  .dropdown-content 
+    position: absolute;
+    top: 7vh;
+    background: black;
+    width: 100vw;
+    display: none;
+  
+  #hamburger
+    display: inline-block;
+
+  .dropdown-content .mobileNav 
+    display: block;
+    font-size: 2.75rem;
+    margin: 3vh;
+
+  .show
+    display: block;

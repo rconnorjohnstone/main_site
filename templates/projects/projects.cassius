@@ -1,0 +1,68 @@
+.projects_wrapper  
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-between;
+  align-items: stretch;
+  margin: 10vh auto;
+  text-align:center;
+
+
+.projects_header 
+  height: 20vh;
+
+.projects_header h2
+  margin: 2rem 0;
+
+.projects_grid 
+  margin: 0 auto;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+
+
+.project 
+  width: 28%;
+  height: 50vh;
+  background-color: hsla(0, 0%, 35%, 100%);
+  padding: 1rem;
+  margin: 1rem 0;
+  border: 2px solid black;
+  border-radius: 0.50em;
+
+
+.project_image img 
+  width: 100%;
+  height: 40vh;
+  object-fit: cover;
+  border: 1px solid black;
+
+
+.project_title 
+  text-align: center;
+  width: 90%;
+  height: 10vh;
+  vertical-align: 50%;
+  margin: auto auto;
+  font-weight: 600;
+
+
+.project_title p 
+  color: black;
+  font-family: sans-serif;
+  vertical-align: middle;
+
+
+@media only screen and (orientation: portrait) 
+  .projects_wrapper
+    font-size: 1.5rem;
+
+    h2
+      font-size: 2.5rem;
+
+  .project 
+    width: 95%;
+  
+

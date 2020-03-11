@@ -1,0 +1,25 @@
+<div .resources .article>
+  <h2> Resume
+  <p> Click #
+    <a .resource_link href="/static/pdf/resume.pdf">
+      here
+    \ for the most up to date version of my resume
+  <h2> Videos
+  <p> Here are a few videos I have of the research project I did on plasma dynamics as an exploration into electric spacecraft propulsion. In each of these videos we generated a plasma using what's called a Paaschen Discharge using a variety of different shaped electrodes. If you're interested in learning more, feel free to send me a message!
+  <div .video_thingy>
+    <video #plasma controls src="/static/videos/plasma.mp4">
+      Your browser does not support this video... Sorry
+    <video #cylindrical controls src="/static/videos/cylindrical_plasma.mp4">
+      Your browser does not support this video... Sorry
+    <video #helical controls src="/static/videos/helical_plasma.mp4">
+      Your browser does not support this video... Sorry
+  <h2> Papers
+  <p> While in school, Ive written papers that I'm quite proud of. These aren't published anywhere but here, but I find the topics very interesting, nonetheless. Here I've posted my favorite one. Feel free to take a look.
+  <p>
+    <a .resource_link href="static/pdf/low_thrust.pdf">
+      Orbit Raising Utilizing a Hybrid Low/High-Thrust Bi-Elliptic Transfer Orbit for Generic High-Ratio Circular Orbits
+  <h2> CAD Models
+  <p> Most of what I do nowadays centers more around orbital mechanics than flight structures. But I was previously a mechanical engineer. Here are a couple of renderings of projects I've worked on to highlight some of my CAD abilities. These were built almost entirely by me using AutoCAD, though I'm also familiar with Creo, SolidWorks, and CATIA v5. </p>
+  <div .cad_drawings>
+    <img src="static/img/cad1.png" />
+    <img src="static/img/cad2.png" />

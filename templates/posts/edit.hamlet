@@ -1,0 +1,7 @@
+<div .article>
+  <form method=post action=@{EditPostR blogPostId} enctype=#{enctype}>
+    ^{blogDraftWidget}
+    <div .draft_view_buttons>
+      <button #draft_view_button .round_button name=action value=publish> Publish
+      <button #draft_view_button .round_button name=action value=delete> Delete
+

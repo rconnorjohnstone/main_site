@@ -1,0 +1,9 @@
+.article
+  width: 65%;
+  min-width: 500px;
+  margin: 5% auto;
+
+@media only screen and (orientation: portrait) 
+  .article
+    width: 80%;
+    min-width: 100px;

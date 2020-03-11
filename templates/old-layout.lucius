@@ -1,0 +1,185 @@
+html {
+  font-size: max(14pt, 1.35vw);
+  color: white;
+  background-color: #111111;
+}
+
+h1, h2, h3 {
+  color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+  margin: 2rem 0 -0.5rem 0;
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+h2 { font-size: 2rem;
+}
+
+h4, h5, h6, p, a, li {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.article {
+  width: 65%;
+  min-width: 500px;
+  margin: 5% auto;
+}
+
+.centered {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.centered > table {
+  margin: 0 auto;
+}
+
+#login_header {
+  margin: 2rem 0;
+}
+
+#login_buttons {
+  margin: 2rem 0;
+}
+
+input {
+  margin: 0 auto;
+  background-color: hsla(0, 0%, 100%, 5%);
+  color: white;
+  border: 1px solid hsla(0, 0%, 60%, 100%);
+  border-radius: 5px;
+  font-size: 1.25rem;
+  font-family: 'Proza Libre';
+  padding: 0.25rem 0.5rem;
+  display: block;
+}
+
+#email {
+  width: 75%;
+}
+
+#password {
+  width: 75%;
+}
+
+#forgotPasswordForm {
+  width: 75%;
+  margin: 2rem auto;
+}
+
+#forgotPassword {
+  width: 40%
+}
+
+#login_button {
+  width: 45%;
+  display: inline-block;
+  margin: 2rem auto;
+}
+
+#register_button {
+  width: 45%;
+  margin: 2rem auto;
+}
+
+#forgot_pass_button {
+  margin: 2rem auto;
+}
+
+#register_buttons {
+  width: 100%;
+}
+
+.round_button {
+  box-sizing: border-box;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background-color: hsla(0,0%,0%,0%);
+  border: 1px solid hsla(0,0%,90%,70%);
+  border-radius: 1.25em;
+  padding: 0.5em;
+  min-width: 20vw;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  align-self: baseline;
+  margin: auto;
+  font-family: 'Raleway', sans-serif;
+}
+
+.round_button:hover {
+  color: green;
+  border-color: green;
+}
+
+@media only screen and (orientation: portrait) {
+  html {
+    font-size: 1.85vh;
+  }
+
+  .round_button {
+    min-width: 30vh;
+  }
+
+  .article {
+    width: 80%;
+    min-width: 100px;
+  }
+
+  #login_button {
+    width: 75%;
+  }
+}
+
+.alert {
+  width: 80%;
+  margin: 5% auto;
+  border: 3px solid black;
+  border-radius: 5px;
+  min-height: 2rem;
+  font-size: 1.75rem;
+  text-align: center;
+}
+
+.alert-info {
+  background-color: #6e84f4;
+  color: #000e59;
+}
+
+/* Common styles for all types */
+.bs-callout {
+  padding: 20px;
+  margin: 20px 0;
+  border: 1px solid #eee;
+  border-left-width: 5px;
+  border-radius: 3px;
+}
+
+.bs-callout p:last-child {
+  margin-bottom: 0;
+}
+
+.bs-callout-info {
+  border-left-color: #1b809e;
+}
+
+/* Space things out */
+.bs-docs-section {
+  margin-bottom: 60px;
+}
+.bs-docs-section:last-child {
+  margin-bottom: 0;
+}
+
+#message {
+    margin-bottom: 40px;
+}

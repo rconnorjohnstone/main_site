@@ -1,0 +1,29 @@
+.required
+  width: 100%
+
+label
+  margin: 1rem auto 0 auto;
+  font-size: 1.25em;
+  font-family: 'Proza Libre';
+
+input
+  width: 100%;
+  background-color: hsla(0, 0%, 100%, 5%);
+  color: white;
+  border: 1px solid hsla(0, 0%, 60%, 100%);
+  border-radius: 5px;
+  font-size: 1.25rem;
+  font-family: 'Proza Libre';
+  padding: 0.25rem 0.5rem;
+
+textarea
+  width: 100%;
+  min-height: 40vh;
+  font-size: 1.25rem;
+  background-color: hsla(0, 0%, 100%, 5%);
+  color: white;
+  border: 1px solid hsla(0, 0%, 60%, 100%);
+  font-size: 1.25rem;
+  border-radius: 5px;
+  font-family: 'Proza Libre'; padding: 0.25rem 0.5rem;
+

@@ -1,0 +1,13 @@
+<div .banner>
+  <div .content_wrapper>
+    <div .banner_content>
+      <h1> Richard Connor Johnstone
+      <p> Aerospace Engineer, Software Developer, Private Pilot
+      <div .banner_links>
+        <a href=@{AboutR} .round_button> About Me
+        <a href=@{ResourcesR} .round_button> Resources
+        <a href=@{AllPostsR} .round_button> Blog
+        <a href=#projects .round_button> Projects
+  <div .main_image_wrapper>
+    <div .main_image>
+      <img src="/static/img/banner.jpg" />

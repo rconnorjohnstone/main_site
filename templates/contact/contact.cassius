@@ -1,0 +1,77 @@
+.contact_wrapper 
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+
+label
+  font-size: 1.25em;
+
+.form_thing
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+
+input
+  width: 100%;
+  background-color: hsla(0, 0%, 100%, 5%);
+  color: white;
+  border: 1px solid hsla(0, 0%, 60%, 100%);
+  border-radius: 5px;
+  font-size: 1.25rem;
+  font-family: 'Proza Libre';
+  padding: 0.25rem 0.5rem;
+
+textarea
+  width: 56vw;
+  height: 10rem;
+  font-size: 1.25rem;
+  background-color: hsla(0, 0%, 100%, 5%);
+  color: white;
+  border: 1px solid hsla(0, 0%, 60%, 100%);
+  font-size: 1.25rem;
+  border-radius: 5px;
+  font-family: 'Proza Libre'; padding: 0.25rem 0.5rem;
+
+.required 
+  display: flex;
+  flex-direction: column;
+  margin: 3% 2%;
+  min-width: 45%;
+
+.contact_wrapper button 
+  margin: 0 auto;
+  display: block;
+
+#name
+  box-sizing: border-box;
+  width: 50%;
+  display: inline-block;
+  padding: 0 6% 0 2%;
+
+#email
+  box-sizing: border-box;
+  width: 50%;
+  display: inline-block;
+  padding: 0 2% 0 6%;
+
+#message
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0 2% 2rem 2%;
+
+#extra_bottom_space
+  margin: 0 auto 1.5rem auto;
+  
+
+@media only screen and (orientation: portrait) 
+  .contact_wrapper 
+    width: 75%;
+
+  input
+    width: 70vw;
+
+  textarea
+    width: 70vw;

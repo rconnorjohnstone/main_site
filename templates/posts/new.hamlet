@@ -1,0 +1,6 @@
+<div .article>
+  <h1> Create a New Post
+
+  <form method=post action=@{NewPostR} enctype=#{enctype}>
+    ^{blogPostWidget}
+    <button .round_button> Submit

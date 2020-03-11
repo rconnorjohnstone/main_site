@@ -1,0 +1,15 @@
+<div .projects_wrapper #projects>
+  <div .projects_header>
+    <h2> Software Projects
+    <p> The links below outline a few of my recent projects
+    <p> More can be found on my <u><a href="https:/www.github.com/rconnorjohnstone">GitHub</a></u>
+
+  <div .projects_grid>
+    $forall card <- cards
+      <div .project>
+        <div .project_image>
+          <a href=#{projectUrl card}>
+            <img src=#{projectImage card} />
+        <div .project_title>
+          <a href=#{projectUrl card}>
+            <p>#{projectTitle card}

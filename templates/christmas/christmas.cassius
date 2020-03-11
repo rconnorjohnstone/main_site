@@ -1,0 +1,19 @@
+.xmas_list
+  width: 65%;
+  min-width: 500px;
+  margin: 5% auto;
+
+.xmas_link
+  display: inline;
+  font-weight: bold;
+  color: green;
+  text-decoration: underline;
+
+ul ul
+  margin-block-start: 0.2rem;
+  margin-block-end: 0.2rem;
+
+@media only screen and (orientation: portrait) 
+  .xmas_list
+    width: 80%;
+    min-width: 100px;

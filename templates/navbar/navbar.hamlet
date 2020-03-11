@@ -1,0 +1,56 @@
+<div .navBar>
+  <div .navLinkBox>
+    <div .navLinks>
+      <a .navBarLink .regularNav href=@{HomeR}>
+        Home
+      <a .navBarLink .regularNav href=@{AboutR}>
+        About
+      <a .navBarLink .regularNav href=@{ResourcesR}>
+        Resources
+      <a .navBarLink .regularNav href=@{AllPostsR}>
+        Blog
+      $maybe aid <- maid
+        $case fromSqlKey aid
+          $of 1
+            <a .navBarLink .regularNav href=@{AllDraftsR}>
+              Drafts
+            <a .navBarLink .regularNav href=@{AuthR LogoutR}>
+              Logout
+          $of _
+            <a .navBarLink .regularNav href=@{AuthR LogoutR}>
+              Logout
+      $nothing
+          <a .navBarLink .regularNav href=@{AuthR LoginR}>
+            Login
+      <a .navBarLink .regularNav href="/#contact">
+        Contact
+      <div .navBarLink .mobile_menu>
+        <i onclick="toggleBurger()" #hamburger .dropbtn .fa .fa-bars>
+        <div .dropdown-content #myDropdown>
+          <a .navBarLink .mobileNav href=@{HomeR}>
+            Home
+          <a .navBarLink .mobileNav href=@{AboutR}>
+            About
+          <a .navBarLink .mobileNav href=@{ResourcesR}>
+            Resources
+          <a .navBarLink .mobileNav href=@{AllPostsR}>
+            Blog
+          $maybe aid <- maid
+            $case fromSqlKey aid
+              $of 1
+                <a .navBarLink .mobileNav href=@{AllDraftsR}>
+                  Drafts
+                <a .navBarLink .mobileNav href=@{AuthR LogoutR}>
+                  Logout
+              $of _
+                <a .navBarLink .mobileNav href=@{AuthR LogoutR}>
+                  Logout
+          $nothing
+            <a .navBarLink .mobileNav href=@{AuthR LoginR}>
+              Login
+          <a .navBarLink .mobileNav href="/#contact">
+            Contact
+  <div .logo>
+    <p>
+      Richard <strong>Connor</strong> Johnstone
+<div .empty>

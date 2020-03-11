@@ -1,0 +1,5 @@
+#{extra}
+<div>
+    ^{fvInput emailView}
+<div>
+    ^{fvInput passwordView}

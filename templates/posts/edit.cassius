@@ -1,0 +1,76 @@
+.article
+  font-size: 1.5rem;
+
+.blog_footer
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+
+#current
+  position: relative;
+  bottom: 0.5rem;
+
+.blog_footer > a
+  font-size: 2.5rem;
+
+.draft_view_buttons
+  margin: 1rem auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+
+#draft_view_button
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: inline-block;
+  min-width: 40%;
+
+.required
+  width: 100%
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+label
+  margin: 1rem auto 0 auto;
+  font-size: 1.25em;
+  font-family: 'Proza Libre';
+
+input
+  width: 100%;
+  background-color: hsla(0, 0%, 100%, 5%);
+  color: white;
+  border: 1px solid hsla(0, 0%, 60%, 100%);
+  border-radius: 5px;
+  font-size: 1.25rem;
+  font-family: 'Proza Libre';
+  padding: 0.25rem 0.5rem;
+
+textarea
+  width: 100%;
+  min-height: 40vh;
+  font-size: 1.25rem;
+  background-color: hsla(0, 0%, 100%, 5%);
+  color: white;
+  border: 1px solid hsla(0, 0%, 60%, 100%);
+  font-size: 1.25rem;
+  border-radius: 5px;
+  font-family: 'Proza Libre'; padding: 0.25rem 0.5rem;
+
+@media only screen and (orientation: portrait)
+  .article
+    .font-size: 1.1rem;
+
+  .draft_view_buttons
+    display: block;
+    width: 80%;
+
+  #draft_view_button
+    width: 100%;
+
+  .blog_footer
+    width: 90%;

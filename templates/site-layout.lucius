@@ -1,0 +1,133 @@
+html {
+  font-size: 1.25vw;
+  color: white;
+  background-color: #111111;
+}
+
+body {
+  margin: 0;
+}
+
+h1, h2, h3 {
+  color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+  margin: 2rem 0 -0.5rem 0;
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h4, h5, h6, p, a, li {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+article {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.article {
+  width: 75%;
+  min-width: 500px;
+  margin: -1%  auto;
+  line-height: 1.5;
+}
+
+.title-header {
+  -webkit-text-stroke-width: .1rem;
+  -webkit-text-stroke-color: black;
+  font-size: 4rem;
+  vertical-align: bottom;
+  line-height: 1.25;
+}
+
+.header_box {
+  margin: auto auto .2rem .2rem;
+}
+
+.bottom_span {
+  margin-top: auto;
+}
+
+.cover-empty {
+  z-index: -1;
+  position: relative;
+  height: 42.1875vw;
+  vertical-align: bottom;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.cover-pic {
+  width: 75vw;
+  z-index: -1;
+  height: 42.1875vw;
+  position: absolute;
+  object-fit: cover;
+}
+
+.round_button {
+  box-sizing: border-box;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background-color: hsla(0,0%,0%,0%);
+  border: 1px solid hsla(0,0%,90%,70%);
+  border-radius: 1.25em;
+  padding: 0.5em;
+  min-width: 20vw;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  align-self: baseline;
+  margin: auto;
+  font-family: 'Raleway', sans-serif;
+}
+
+.round_button:hover {
+  color: green;
+  border-color: green;
+}
+
+@media only screen and (orientation: portrait) {
+  html {
+    font-size: 1.5vh;
+  }
+
+  .round_button {
+    min-width: 30vh;
+  }
+
+  .article {
+    width: 90%;
+    min-width: 100px;
+    line-height: 1.25;
+  }
+
+  .cover-pic {
+    width: 90vw;
+    height: 50.625vw;
+  }
+  
+  .cover-empty {
+    height: 50.625vw;
+  }
+
+  .title-header {
+    font-size: 2.75rem;
+  }
+
+}

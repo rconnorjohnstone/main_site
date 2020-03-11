@@ -1,0 +1,54 @@
+.preview_card 
+  height: 30vw;
+  width: 100%;
+
+.card_image 
+  width: 45vw;
+  height: 30vw;
+  position: absolute;
+
+.card_image img 
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+
+.card_content 
+  position: absolute;
+  box-sizing: border-box;
+  height: 30vw;
+  width: 55vw;
+  padding: 3vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+.offsetLarge
+  left: 55%;
+
+.offsetSmall
+  left: 45%;
+
+@media only screen and (orientation: portrait) 
+  .preview_card 
+    display: block;
+    height: 100vh;
+
+  .card_image 
+    display: block;
+    width: 100%;
+    height: 40%;
+    left: 0%;
+  
+  .card_content 
+    font-size: 1.5rem;
+    position: relative;
+    width: 100%;
+    height: 60%;
+    top: 40%;
+    left: 0%;
+    padding: 8%;
+    text-align: center;
+  
+
+

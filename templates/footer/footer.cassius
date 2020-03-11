@@ -1,0 +1,21 @@
+.footer_wrapper 
+  width: 28rem;
+  margin: 2rem auto;
+  text-align: center;
+
+.footer_links 
+  width: 100%;
+
+.footer_wrapper a 
+  font-size: 2rem;
+  background-color: transparent;
+  border: 1px solid hsla(0, 0%, 100%, 60%);
+  border-radius: 50%;
+  display: inline-block;
+  margin: 1rem;
+  padding: 1rem;
+
+.footer_wrapper a:hover 
+  color: green;
+  border-color: green;
+

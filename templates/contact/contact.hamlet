@@ -1,0 +1,7 @@
+<div .contact_wrapper #contact>
+
+  <h2> Get In Touch
+
+  <form .form_thing method=post action=@{ContactR} enctype=#{enctype}>
+    ^{contactWidget}
+    <button .round_button #extra_bottom_space> Send Message
